@@ -1,31 +1,16 @@
 {
   "name": "react-native-fs",
-  "version": "1.2.0",
-  "description": "Native filesystem access for react-native",
-  "main": "FS.common.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
-    "type": "git",
-    "url": "git@github.com:johanneslumpe/react-native-fs.git"
+    "type" : "git",
+    "url" : "https://github.com/skizzo/react-native-fs.git"
   },
+  "version": "0.0.1",
+  "description": "Skizzo's fork of react native file system, original @ https://github.com/johanneslumpe/react-native-fs",
+  "author": "",
+  "nativePackage": true,
   "keywords": [
-    "react-component",
     "react-native",
-    "ios",
-    "android",
-    "fs",
-    "filesystem"
-  ],
-  "author": "Johannes Lumpe <johannes@lum.pe> (https://github.com/johanneslumpe)",
-  "license": "MIT",
-  "dependencies": {
-    "base-64": "^0.1.0",
-    "bluebird": "^2.9.25",
-    "utf8": "^2.1.1"
-  },
-  "devDependencies": {
-    "react-native": "*"
-  }
+    "react",
+    "native"
+  ]
 }
